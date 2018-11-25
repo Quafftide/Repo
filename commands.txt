@@ -20,3 +20,11 @@ git merge "branch name" //first check out to master and then merge
 git branch -d "branch1" // delete beanch which is merged loacally
 
 git push origin --delete "branch1" //delete branch from remote
+
+------
+Trigger email from git hub 
+--------
+
+go Repository -> setting -> integration and services
+
+webhooks  http://f8ebd95b.ngrok.io -> localhost:4567
