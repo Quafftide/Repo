@@ -1,0 +1,7 @@
+
+git init    //to add the project
+git --version
+git status // check the git status
+git add.  //to add all the file
+git commit -m "git added created files"
+
