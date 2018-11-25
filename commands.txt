@@ -8,3 +8,10 @@ git remote add origin https://github.com/Quafftide/Repo.git  //add the repositor
 git push -u origin master 
 git log
 git --help
+
+---------------------
+Branching and Merging
+------------------
+
+git branch "branch name"  //create branch
+git checkout "branch name" // check out the branch
