@@ -4,4 +4,4 @@ git --version
 git status // check the git status
 git add.  //to add all the file
 git commit -m "git added created files"
-
+git remote add origin https://github.com/Quafftide/Repo.git  //add the repository git hub
