@@ -28,3 +28,9 @@ Trigger email from git hub
 go Repository -> setting -> integration and services
 
 webhooks  http://f8ebd95b.ngrok.io -> localhost:4567
+
+------------
+Tag
+-------
+git tag v1.0 //t tag any branch to create historic pointof release
+git tag //
