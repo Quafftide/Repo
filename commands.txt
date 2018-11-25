@@ -16,3 +16,7 @@ Branching and Merging
 git branch "branch name"  //create branch
 git checkout "branch name" // check out the branch
 git merge "branch name" //first check out to master and then merge
+
+git branch -d "branch1" // delete beanch which is merged loacally
+
+git push origin --delete "branch1" //delete branch from remote
