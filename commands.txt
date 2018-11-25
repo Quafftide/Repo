@@ -15,3 +15,4 @@ Branching and Merging
 
 git branch "branch name"  //create branch
 git checkout "branch name" // check out the branch
+git merge "branch name" //first check out to master and then merge
