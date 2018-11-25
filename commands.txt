@@ -20,6 +20,8 @@ git merge "branch name" //first check out to master and then merge
 git branch -d "branch1" // delete beanch which is merged loacally
 
 git push origin --delete "branch1" //delete branch from remote
+git config --global user.email "maliekal.joy@gmail.com"
+git config --global user.name "Quafftide"
 
 ------
 Trigger email from git hub 
@@ -34,3 +36,13 @@ Tag
 -------
 git tag v1.0 //t tag any branch to create historic pointof release
 git tag //
+git tag -a v1.1 m "tag for release" //annotated tag
+git tag -l v1.* //to view tag under v1 using wild cardgit 
+git push origin v1.0 // push a tag  in git hubgit 
+git push --tags //push all tags
+git push  
+git tag -d v1.0 //to delete tag in local
+git push origin -d v1.0 //to delete tag from remote
+git push origin d v1.0 v1.1 //multiple delete
+git checkout -b branch3 v1.1 //to create branch from tag branch3 is branch name
+git tag <tagname> <refernce of commit. //to create a tag of previous tag
